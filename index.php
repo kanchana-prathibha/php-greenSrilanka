@@ -62,9 +62,9 @@ if (!isset($_SESSION["user"])) {
                         <li>
                         <a href="logout.php" class="btn btn-warning">Logout <span><i class="fa-solid fa-right-from-bracket"></i></span> </a>
                         </li>
-                            <li  class="btn  btn-success" style="margin-left: 10px">
-                                <i class="fa-regular fa-message"></i>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inbox.php">Inbox&nbsp;<i class="fa-solid fa-message fa-shake fa-2xl" style="color: #ffbb00;"></i></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
